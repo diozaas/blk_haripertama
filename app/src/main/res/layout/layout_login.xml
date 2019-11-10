@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    >
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_marginEnd="10sp"
+        android:layout_gravity="center"
+        android:drawableEnd="@drawable/ic_expand_more_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bahasa_indonesia"
+        android:textColor="#FFF"
+
+        />
+
+<!--    <ImageView-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:background="@drawable/ig"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        />-->
+
+    <TextView
+        android:typeface="monospace"
+        android:text="@string/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+
+        />
+
+    <EditText
+        android:fontFamily="serif-monospace"
+        android:hint="@string/username"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_edittext"
+        android:autofillHints="username@mail.com"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/password"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_edittext"
+        android:autofillHints="yourpassword"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lupa_password_silahkan_klik"
+        android:textColor="#FFF"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <View
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:layout_marginLeft="16dp"
+            android:background="#FFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFF"
+            android:textSize="12sp"
+            />
+
+        <View
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFF"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_dengan_facebook"
+        android:drawableStart="@mipmap/fb"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/tidak_punya_akun_daftar"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFF"
+        android:background="@drawable/bg_edittext"
+        >
+    </TextView>
+
+</RelativeLayout>
